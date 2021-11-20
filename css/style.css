@@ -50,5 +50,6 @@ margin-bottom: 30px;
 
 .btn-red {
     color: white;
-    background-color: red;
+    background-color: rgb(121, 0, 0);
+    border: none;
 }
