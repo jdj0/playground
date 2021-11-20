@@ -1,11 +1,15 @@
 .callout-container{
     height: 100vh;
-
-    background: url("..images/whiskey-bg.jpeg) no-repeat center center fixed; 
+    width: 100%;
+    background: url(../images/whiskey-bg.jpeg) no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quotes-container{
@@ -18,4 +22,33 @@
 
 .top-whiskeys{
 
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+color: white;
+font-weight: bold;
+margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: d0d0d0;
+}
+
+/*buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 22px;
+    width: 160px;
+}
+
+.btn-red {
+    color: white;
+    background-color: red;
 }
